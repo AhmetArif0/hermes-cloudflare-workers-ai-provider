@@ -1,0 +1,9 @@
+name: cloudflare-workers-ai-provider
+kind: model-provider
+version: 1.0.0
+description: Cloudflare Workers AI as a Hermes model provider — the Workers AI models Hermes can run, with their context windows, and reasoning effort in the form each model accepts.
+author: AhmetArif0
+requires_hermes: ">=0.21.5"
+requires_env:
+  - CLOUDFLARE_WORKERS_AI_API_TOKEN
+  - CLOUDFLARE_WORKERS_AI_BASE_URL
